@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.spartan" name="Spartan Wizard" version="0.12.0" provider-name="digitalelectronicsprojects.com">
+<addon id="plugin.video.spartan" name="Spartan Wizard" version="0.12.0" provider-name="github.com">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>

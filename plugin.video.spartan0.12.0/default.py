@@ -21,7 +21,7 @@ PATH = "Knight Kodi"
 
     
 def CATEGORIES():
-    link = OPEN_URL('http://digitalelectronicsprojects.com/wizard.txt').replace('\n','').replace('\r','')
+    link = OPEN_URL('https://github.com/rugito/KnightKodi/raw/master/wizard.txt').replace('\n','').replace('\r','')
     match = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(link)
     for name,url,iconimage,fanart,description in match:
         addDir(name,url,1,iconimage,fanart,description)
